@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baskervville';
+   }
+   body {
+    text-align: center;
+    height: 200px;
+    padding: 10px;
+    background: url('https://images8.alphacoders.com/132/1327993.png')
+   }
+   header {
+    background-color: pink (128, 0, 100);
+    border-radius: 250px;
+    border: solid 10px;
+    background: url('"c:\Users\Asus ROG\Downloads\MicrosoftTeams-image (7).png"');
+   }
+   header h1 {
+    display: flex;
+    font-size: 100px;
+    justify-content: center;
+    color: black;
+    -webkit-text-stroke: 1.5px rgb(242, 198, 242);
+   }
+   #about-me{
+    align-items: center;
+   }
+   .top-nav {
+    background: none;
+    position: fixed;
+    top: 0;
+   }
+   .top-nav .logo a,
+   .top-nav .nav-menu a {
+    color: black;
+   }
+   .top-nav .nav-menu a {
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+   }
+   . a:hover {
+    border-bottom: 1px solid purple;
+   }
+   nav {
+   display: flex;
+   justify-content: center;
+   padding: 5px;
+   gap: 100px
+   }
+   nav a {
+   text-decoration: none;
+   color: black;
+   padding: 10px, 15px;
+   position: relative;
+   font-size: 20px;
+   }
+   nav a:hover {
+   color: green;
+   transition: 0.5s;
+   }
+   main {
+   padding-top: 3px;
+   }
+   .desck img {
+   align-items: center;
+   height: 300px;
+   width: 300px;
+   padding: 20px;
+   }
+   .desck p {
+   font-size: 23px;
+   margin-bottom: auto;
+   padding: 10px;
+   color: black;
+   }
+   .button {
+   padding-top: 5;
+   }
+   .button button {
+   width: 100%;
+   height: 40px;
+   background-color: purple (38, 169, 221);
+   font-size: 20px;
+   }
+   #hobbies  {
+    color: palevioletred;
+      border-radius: 15px;
+      background: url('"https://img.freepik.com/free-vector/watercolor-colorful-butterfly-background_23-2150146459.jpg"');
+   }
+   
+   
+   #hobbies h2 {
+    justify-content: center;
+    display: flex;
+    color: black;
+    -webkit-text-stroke: 5px pink (240, 238, 238);
+    font-size: 35px;
+   }
+   ul {
+    padding-left: 30px;
+    font-size: 40px;
+   }
+   li {
+    padding-left: 20px;
+    font-size: 23px;
+    color: black;
+    -webkit-text-stroke: .20px palevioletred;
+   }
+   .li {
+    color: black (248, 246, 246);
+   }
+   
